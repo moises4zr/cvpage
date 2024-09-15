@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #9470b15d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width:1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+
+hr{
+    border:none;
+    background-color: #6994f2;
+    height: 2px;
+}
+
+.container .der-seccion{
+    position: relative;
+    background-color:#9682ec;
+    padding: 40px;
+}
+
+.foto-perfil{
+    width: 225px;
+    border-radius: 50%; 
+    margin-left:30px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.profs {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-info-title{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.contact-info-list{
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding: 0px;
+}
+
+.contact-info-list-elements{
+    margin-bottom: 5px;
+}
+
+.habilidades-title{
+    text-align: center;
+    margin-bottom:3px
+}
+
+.habilidades-title-sub{
+    text-align: center;
+    margin-top:  5px;
+    margin-bottom:5px;
+}
+
+.habilidades-list{
+    list-style-type: square;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding: 0px;
+}
+
+.habilidades-list-elements{
+    margin-bottom: 5px;
+}
+
+.idiomas-title{
+    text-align: center;
+    margin-bottom:3px
+}
+
+.idiomas-list{
+    margin-top:10px;
+    list-style-type: square;
+}
+.idiomas-list-elements{
+    margin-bottom: 5px;
+}
+
+.container .izq-seccion{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.experiencia-laboral {
+    margin-top: 20px;
+}
+
+.experiencia-laboral h2 {
+    text-align: center;
+    color: rgb(30, 102, 184);
+}
+
+.trabajo {
+    margin-bottom: 20px;
+}
+
+.trabajo h3 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.empresa {
+    font-weight: bold;
+    color: #555;
+}
+
+.fecha {
+    font-style: italic;
+    color: #888;
+}
+
+.responsabilidades {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.responsabilidades-list-elements {
+    margin-bottom: 5px;
+}
+
+.formacion-academica {
+    margin-top: 20px;
+}
+
+.formacion-academica h2 {
+    text-align: center;
+    color: rgb(30, 102, 184);
+}
+
+.formacion {
+    margin-bottom: 20px;
+}
+
+.formacion h3 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.institucion {
+    font-weight: bold;
+    color: #555;
+}
+
+.fecha {
+    font-style: italic;
+    color: #888;
+}
+
+.formacion p {
+    margin-top: 5px;
+}
+
+
+
+
+
+
